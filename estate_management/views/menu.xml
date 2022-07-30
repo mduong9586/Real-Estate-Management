@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<!-- Top level menu: No parent-->
+	<menuitem id="main_estatemanagement_menu" 
+			  name="Estate Management"
+			  sequence="0"/>
+	<!-- A first level in the left side meny is needed before using action= attribute-->
+	<menuitem id="estatemanagement_menu"
+			  name="Estate Details" 
+			  parent="main_estatemanagement_menu"/>
+</odoo>
